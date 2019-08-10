@@ -4,7 +4,7 @@ import 'firebase/database';
 import 'firebase/storage'
 
 var firebaseConfig = {
-  apiKey: "AIzaSyDpA36GzROS8AUIqGvYI-dQaqE8eToQhZA",
+  apiKey: "process.env.apikey",
   authDomain: "chat-app-like-slack.firebaseapp.com",
   databaseURL: "https://chat-app-like-slack.firebaseio.com",
   projectId: "chat-app-like-slack",
